@@ -1,9 +1,5 @@
 import React from 'react'
 import {render} from 'react-dom'
+import App from './components/App'
 
-function App() {
-  return <div>Mounted!</div>
-}
-
-const root = document.getElementById('root')
-render(<App />, root)
+render(<App />, document.getElementById('root'))
